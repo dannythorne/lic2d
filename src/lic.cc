@@ -35,8 +35,22 @@ int main( int argc, char **argv)
       }
       case 3:
       {
-        lic_class lic( 3, argv[1], atoi(argv[2]));
-        cout << lic << endl;
+        if( isdigit(argv[1][0]))
+        {
+          lic_class lic( 3, argv[1], atoi(argv[2]));
+          cout << lic << endl;
+        }
+        else if( isdigit(argv[2][0]))
+        {
+          cout << "BING!" << endl;
+          lic_class lic( atoi(argv[2]), argv[1]);
+          cout << lic << endl;
+        }
+        else
+        {
+          lic_class lic( 3, argv[1]);
+          cout << lic << endl;
+        }
         break;
       }
       case 4:

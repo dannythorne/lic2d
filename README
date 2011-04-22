@@ -8,3 +8,21 @@ Then run ./lic.exe ./dat/u299x299_frame0036_subs00.dat
 
 It will create an lic_in.bmp file which is the input texture used to generate
 the flow lines pattern that will be output in lic.bmp .
+
+Experiment with
+
+  ./lic.exe ./dat/u299x299_frame0036_subs00.dat 1
+  ./lic.exe ./dat/u299x299_frame0036_subs00.dat 2
+  ./lic.exe ./dat/u299x299_frame0036_subs00.dat 3
+  ./lic.exe ./dat/u299x299_frame0036_subs00.dat 4
+  ./lic.exe ./dat/u299x299_frame0036_subs00.dat 5
+  ./lic.exe ./dat/u299x299_frame0036_subs00.dat 6
+
+to get the following different colors/textures:
+
+  1  Black and white noise.
+  2  Color noise.
+  3  Velocity based. Blue/green frame with white-noise fill.
+  4  Velocity based. Red/green noise.
+  5  Red/Green noise frame with blue noise fill.
+  6  Velocity based. Blue/Green

@@ -3,9 +3,9 @@ CC=g++
 RM=/bin/rm -f
 
 CFLAGS=
-CFLAGS+=-g
+#CFLAGS+=-g
 
-lic: ./src/bmp_class.o ./src/lic_class.o
+lic: ./src/bmp_class.o ./src/lic_class.o ./src/lic.cc
 	$(CC) $(CFLAGS) -o lic ./src/lic.cc ./src/bmp_class.o ./src/lic_class.o
 
 apple: ./src/bmp_class.o
