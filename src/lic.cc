@@ -42,7 +42,6 @@ int main( int argc, char **argv)
         }
         else if( isdigit(argv[2][0]))
         {
-          cout << "BING!" << endl;
           lic_class lic( atoi(argv[2]), argv[1]);
           cout << lic << endl;
         }
