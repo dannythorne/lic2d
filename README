@@ -1,0 +1,10 @@
+Type 'make' to compile the code.
+
+Place an LB2D_Prime velocity dat file in the dat folder and edit it as follows:
+Add one line at the top of the file containing LX followed by LY. See the
+example ./dat/u299x299_frame0036_subs00.dat .
+
+Then run ./lic.exe ./dat/u299x299_frame0036_subs00.dat
+
+It will create an lic_in.bmp file which is the input texture used to generate
+the flow lines pattern that will be output in lic.bmp .
