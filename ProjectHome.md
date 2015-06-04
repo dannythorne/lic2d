@@ -1,0 +1,1 @@
+Converts an ASCII input file of a 2D vector field into a BMP file LIC visualization of the vector field.
